@@ -1,8 +1,7 @@
 from collections import deque
-
-
-N = int(6)
+N = int(input(6))
 queue = deque()
+
 for n in range(1, N+1):
     queue.append(n)
 

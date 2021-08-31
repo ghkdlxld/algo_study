@@ -16,13 +16,10 @@ for i in range(N):
 for i in range(N):
     for j in range(len(relation[i])):
         for a in relation[relation[i][j]]:
-            if a not in result[i]:
+            if a not in result[i] and a != i:
                 result[i].append(a)
 
 for i in range(N):
-    if i in result[i]:
-        result[i] = len(result[i])-1
-    else:
-        result[i] = len(result[i])
+    result[i] = len(result[i])
 print(max(result))
 

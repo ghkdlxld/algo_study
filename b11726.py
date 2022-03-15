@@ -10,6 +10,6 @@ for i in range(1, N // 2+1):
     for j in range(N-i,N-2*i,-1):
         t[i] *= j
     b[i] = b[i-1]*i
-    cnt += t[i]/b[i]
-
-print(int(cnt))
+    cnt += t[i]//b[i]
+print()
+print(cnt%10007)

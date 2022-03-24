@@ -3,5 +3,5 @@ sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
 N = int(input())
-
+   
 print(arr)

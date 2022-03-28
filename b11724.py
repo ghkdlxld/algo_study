@@ -13,8 +13,6 @@ def bfs(i):
                 q.append(x)
                 visited[x] = 1
 
-
-
 N, M = map(int, sys.stdin.readline().split())
 link = [[] for _ in range(N+1)]
 for _ in range(M):

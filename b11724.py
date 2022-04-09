@@ -19,7 +19,7 @@ for _ in range(M):
     u, v = map(int, sys.stdin.readline().split())
     link[u].append(v)
     link[v].append(u)
-
+  
 visited = [0]*(N+1)
 cnt = 0
 for i in range(1, N+1):

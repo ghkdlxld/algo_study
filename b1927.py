@@ -1,30 +1,31 @@
 import sys
+sys.stdin = open('input.txt')
 from collections import deque
+input = sys.stdin.readline
 
-def bfs(i):
-    q = deque()
-    q.append(i)
-    visited[i] = 1
+N = int(input())
+arr = deque()
+for _ in range(N):
+    x = int(input())
 
-    while q:
-        now = q.popleft()
-        for x in link[now]:
-            if visited[x] == 0:
-                q.append(x)
-                visited[x] = 1
+    if x == 0:
+        if len(arr) == 0:
+            print(0)
+        else:
+            print(arr[0])
+            arr.popleft()
 
-N, M = map(int, sys.stdin.readline().split())
-link = [[] for _ in range(N+1)]
-for _ in range(M):
-    u, v = map(int, sys.stdin.readline().split())
-    link[u].append(v)
-    link[v].append(u)
-  
-visited = [0]*(N+1)
-cnt = 0
-for i in range(1, N+1):
-    if visited[i] == 0:
-        bfs(i)
-        cnt += 1
 
-print(cnt)
+    else:
+        arr.append(x)
+        if len(arr) == 1:
+            continue
+
+        else:
+            i = len(arr)-1
+            while True:
+                if i != 0 and arr[i] < arr[i-1]:
+                    arr[i], arr[i - 1] = arr[i-1], arr[i]
+                    i -= 1
+                else:
+                    break

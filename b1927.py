@@ -1,3 +1,5 @@
+# 시간초과 코드
+
 import sys
 sys.stdin = open('input.txt')
 from collections import deque

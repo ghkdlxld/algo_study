@@ -1,7 +1,3 @@
-import sys
-sys.stdin = open('input.txt')
-
-
 def trip(start, x):
     global result, cost
     if visited.count(0) == 0:

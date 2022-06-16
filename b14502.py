@@ -22,6 +22,7 @@ def bfs(virus_map, g):
             if 0<=ni<N and 0<=nj<M and arr[ni][nj] == 0:
                 virus_map[ni][nj] = 2
 
+
 N, M = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
 wall = []
@@ -34,9 +35,18 @@ for i in range(N):
             virus.append((i, j))
 
 group = combinations(wall, 3)
-
+ans = 0
 for g in group:
+    cnt = 0
     wall_map = copy.deepcopy(arr)
     for i in range(3):
         wall_map[g[i][0]][g[i][1]] = 1
     bfs(wall_map, g)
+    print(wall_map)
+    for i in range(N):
+        cnt += wall_map[i].count(0)
+    print(cnt)
+    if cnt > ans:
+        ans = cnt
+
+print(cnt)

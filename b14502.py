@@ -22,7 +22,7 @@ def bfs(virus_map, g):
             if 0<=ni<N and 0<=nj<M and arr[ni][nj] == 0:
                 virus_map[ni][nj] = 2
 
-
+  
 N, M = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
 wall = []

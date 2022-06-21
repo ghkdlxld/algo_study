@@ -25,7 +25,7 @@ def bfs(wall_map):
                 wall_map[ni][nj] = 2
 
 
-
+  
 N, M = map(int, input().split())
 arr = [list(map(int, input().split())) for _ in range(N)]
 wall = []
@@ -51,3 +51,4 @@ for g in group:
         ans = cnt
 
 print(ans)
+

@@ -5,9 +5,10 @@ import copy
 from collections import deque
 input = sys.stdin.readline
 
-def bfs(virus_map, g):
+def bfs(wall_map):
     q = deque()
     q.extend(virus)
+
 
     di = [0, 0, -1, 1]
     dj = [1, -1, 0, 0]
@@ -19,8 +20,10 @@ def bfs(virus_map, g):
             ni = start[0] + di[k]
             nj = start[1] + dj[k]
 
-            if 0<=ni<N and 0<=nj<M and arr[ni][nj] == 0:
-                virus_map[ni][nj] = 2
+            if 0<=ni<N and 0<=nj<M and wall_map[ni][nj] == 0:
+                q.append((ni, nj))
+                wall_map[ni][nj] = 2
+
 
 
 N, M = map(int, input().split())
@@ -41,12 +44,10 @@ for g in group:
     wall_map = copy.deepcopy(arr)
     for i in range(3):
         wall_map[g[i][0]][g[i][1]] = 1
-    bfs(wall_map, g)
-    print(wall_map)
+    bfs(wall_map)
     for i in range(N):
         cnt += wall_map[i].count(0)
-    print(cnt)
     if cnt > ans:
         ans = cnt
 
-print(cnt)
+print(ans)

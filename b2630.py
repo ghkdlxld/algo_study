@@ -19,5 +19,6 @@ for i in range(N):
             else:
                 white += 1
             make_paper(i, j, 0)
-            
+
+
 print(visited)

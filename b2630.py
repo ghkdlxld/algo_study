@@ -3,9 +3,12 @@ sys.stdin = open('input.txt')
 
 def make_paper(i, j, k):
     visited[i][j] = 1
-    k=1
-    while True:
-      pass
+    for x in range(k+1):
+        for y in range(k + 1):
+            if paper[i+x][j+y] != 1:
+                # 1 or 0 처음 들어온 값과 다를경우 return
+                pass
+
     
 N = int(input())
 paper = [list(map(int, input().split())) for _ in range(N)]

@@ -9,7 +9,8 @@ def make_paper(i, j, k):
                 # 1 or 0 처음 들어온 값과 다를경우 return
                 pass
 
-    
+  
+ 
 N = int(input())
 paper = [list(map(int, input().split())) for _ in range(N)]
 visited = [[0]*N for _ in range(N)]

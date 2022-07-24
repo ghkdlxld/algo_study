@@ -11,6 +11,7 @@ def make_paper(i, j, k):
 
   
  
+
 N = int(input())
 paper = [list(map(int, input().split())) for _ in range(N)]
 visited = [[0]*N for _ in range(N)]

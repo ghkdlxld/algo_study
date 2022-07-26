@@ -9,6 +9,8 @@ def make_paper(i, j, k):
                 # 1 or 0 처음 들어온 값과 다를경우 return
                 pass
 
+
+
     
  
 

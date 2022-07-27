@@ -1,34 +1,18 @@
 import sys
 sys.stdin = open('input.txt')
 
-def make_paper(i, j, k):
-    visited[i][j] = 1
-    for x in range(k+1):
-        for y in range(k + 1):
-            if paper[i+x][j+y] != 1:
-                # 1 or 0 처음 들어온 값과 다를경우 return
-                pass
-
-
-
-    
- 
+# 시작점 i,j 변의 길이 m, 색깔
+# True 모두 같음
+def same(i, j, m, k):
+    for x in range(i, i+m):
+        for y in range(j, j+m):
+            if paper[x][y] != k:
+                return False
+    return True
 
 N = int(input())
 paper = [list(map(int, input().split())) for _ in range(N)]
-visited = [[0]*N for _ in range(N)]
-blue = 0
-white = 0
-
-for i in range(N):
-    for j in range(N):
-        if visited[i][j] == 0:
-            if paper[i][j] == 1:
-                blue += 1
-            else:
-                white += 1
-            make_paper(i, j, 0)
+print(paper)
+stack = [(0, 0, N)]
 
 
-
-print(visited)

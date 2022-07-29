@@ -35,4 +35,6 @@ while q:
                 q.append((now[0]+(N//m+1)*a, now[1]+(N//m + 1)*b))
 
 
+
+
 print(ans)

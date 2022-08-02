@@ -1,43 +1,22 @@
 import sys
-sys.stdin = open('input.txt')
-from collections import deque
-
-# 시작점 i,j 변의 길이 m, 색깔
-# True 모두 같음
-def same(i, j, m, k):
-    for x in range(i, i+m):
-        for y in range(j, j+m):
-            if paper[x][y] != k:
-                return False
-    return True
-
-
-    
+input=sys.stdin.readline
 
 N = int(input())
 paper = [list(map(int, input().split())) for _ in range(N)]
-visited = [[0]*N for _ in range(N)]
 ans = [0, 0]
-q = deque()
-q.append((0, 0))
 
-m = N
-while q:
-    now = q.popleft()
-    if same(*now, m, paper[now[0]][now[1]]):
-        ans[paper[now[0]][now[1]]] += 1
-        for a in range(m):
-            for b in range(m):
-                visited[now[0]+a][now[1]+b] = 1
-    else:
-        if q:
+def make_paper(x, y, N):
+    color = paper[x][y]
+    for i in range(x, x+N):
+        for j in range(y, y+N):
+            if color != paper[i][j]:
+                make_paper(x, y, N//2)
+                make_paper(x+N//2, y, N//2)
+                make_paper(x, y+N // 2, N // 2)
+                make_paper(x+N//2, y + N // 2, N // 2)
+                return
+    ans[color] += 1
 
-        m *= 2
-        for a in range(2):
-            for b in range(2):
-                q.append((now[0]+(N//m+1)*a, now[1]+(N//m + 1)*b))
-
-
-
-
-print(ans)
+make_paper(0,0,N)
+print(ans[0])
+print(ans[1])

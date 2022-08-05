@@ -22,4 +22,4 @@ def solution(x, y, N):
     ans += str(color)
 
 solution(0, 0, N)
-print(ans)
+print(ans) 

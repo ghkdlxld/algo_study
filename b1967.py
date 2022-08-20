@@ -5,7 +5,7 @@ import sys
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
 sys.setrecursionlimit(10**9)
-
+ 
 n = int(input())
 graph = [[] for _ in range(n+1)]
 

@@ -1,6 +1,7 @@
 # 원래는 dfs한번으로 O(n**2) 으로 풀었었다 -> 시간초과
 # dfs 두번으로 O(n) 풀이 + setrecursion으로 통과
 # 임의 한 노드 - 제일 먼 노드(n1), n1으로 부터 제일 먼 노드까지 거리 = 트리의 지름
+
 import sys
 sys.stdin = open('input.txt')
 input = sys.stdin.readline

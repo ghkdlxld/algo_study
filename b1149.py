@@ -11,10 +11,8 @@ ans = 0
 
 def home(x):
     for k in range(3):
-
-
-
-
+        if dp[x][k] == 0:
+            home(x+1)
 
 
 home(1)

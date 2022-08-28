@@ -9,11 +9,17 @@ ans = int(1e9)
 dp = [[0]*3 for _ in range(N)]
 ans = 0
 
-def home(x):
+def home(x, c):
+    global ans
+    if ans < c:
+        return
+
     for k in range(3):
         if dp[x][k] == 0:
-            home(x+1)
+            dp[x][k] = 1
+            home(x+1, c + cost[x][k])
+            dp[x][k] = 0
 
 
-home(1)
+home(1, 0)
 

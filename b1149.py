@@ -21,5 +21,8 @@ def home(x, c):
             dp[x][k] = 0
 
 
+
+
+
 home(1, 0)
 

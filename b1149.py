@@ -13,7 +13,7 @@ def home(x, c):
     global ans
     if ans < c:
         return
-
+# 한칸씩 체크 확인
     for k in range(3):
         if dp[x][k] == 0:
             dp[x][k] = 1

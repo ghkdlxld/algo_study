@@ -20,5 +20,7 @@ def home(x, c):
             home(x+1, c + cost[x][k])
             dp[x][k] = 0
 
+
+
 home(1, 0)
 

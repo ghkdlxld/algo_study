@@ -3,24 +3,11 @@ sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
 N = int(input())
-cost = [list(map(int, input().split())) for _ in range(N)]
+dp = [list(map(int, input().split())) for _ in range(N)]
 
-ans = int(1e9)
-dp = [[0]*3 for _ in range(N)]
-ans = 0
+for i in range(1, N):
+    dp[i][0] += min(dp[i-1][1], dp[i-1][2])
+    dp[i][1] += min(dp[i-1][0], dp[i-1][2])
+    dp[i][2] += min(dp[i-1][0], dp[i-1][1])
 
-def home(x, c):
-    global ans
-    if ans < c:
-        return
-# 한칸씩 체크 확인
-    for k in range(3):
-        if dp[x][k] == 0:
-            dp[x][k] = 1
-            home(x+1, c + cost[x][k])
-            dp[x][k] = 0
-
-
-
-home(1, 0)
-
+print(min(dp[N-1]))

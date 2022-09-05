@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b7d7e6b3-2d99-496b-90dd-4b95c8f74295" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b11724.py" beforeDir="false" afterPath="$PROJECT_DIR$/b11724.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b14502.py" beforeDir="false" afterPath="$PROJECT_DIR$/b14502.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b1149.py" beforeDir="false" afterPath="$PROJECT_DIR$/b1149.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b2263.py" beforeDir="false" afterPath="$PROJECT_DIR$/b2263.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,35 +55,36 @@
     <session id="996537281">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
-          <entry key="project.open.time.2" value="26" />
-          <entry key="project.open.time.3" value="9" />
+          <entry key="project.closed" value="90" />
+          <entry key="project.open.time.2" value="68" />
+          <entry key="project.open.time.3" value="22" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
-          <entry key="txt" value="9" />
+          <entry key="py" value="28" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="8" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="9205" />
-          <entry key="txt" value="38" />
+          <entry key="py" value="39406" />
+          <entry key="txt" value="220" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="38" />
-          <entry key="Python" value="9205" />
+          <entry key="PLAIN_TEXT" value="220" />
+          <entry key="Python" value="39406" />
         </counts>
       </usages-collector>
     </session>
@@ -91,14 +93,23 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/b14502.py">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/b2263.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="727">
-                  <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+                <state relative-caret-position="378">
+                  <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
                   <folding>
-                    <marker date="1655792804899" expanded="true" signature="164:524" ph="..." />
+                    <marker date="1661348532650" expanded="true" signature="228:429" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/b1149.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
                 </state>
               </provider>
             </entry>
@@ -111,16 +122,7 @@
             <entry file="file://$PROJECT_DIR$/input.txt">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="144">
-                  <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/b7662.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
+                  <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -129,37 +131,22 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/b1058.py/input.txt" />
-        <option value="$PROJECT_DIR$/b1058.py/b1058.py" />
-        <option value="$PROJECT_DIR$/b1058.py" />
-        <option value="$PROJECT_DIR$/b2583/b2583.py" />
-        <option value="$PROJECT_DIR$/b2667.py" />
-        <option value="$PROJECT_DIR$/b21735.py" />
-        <option value="$PROJECT_DIR$/b1759.py" />
-        <option value="$PROJECT_DIR$/b10819.py" />
-        <option value="$PROJECT_DIR$/b10819_2.py" />
-        <option value="$PROJECT_DIR$/b10819_1.py" />
-        <option value="$PROJECT_DIR$/b6603.py" />
-        <option value="$PROJECT_DIR$/b16198.py" />
-        <option value="$PROJECT_DIR$/b1068.py" />
-        <option value="$PROJECT_DIR$/corpus.txt" />
-        <option value="$PROJECT_DIR$/다은2.py" />
-        <option value="$PROJECT_DIR$/다은.py" />
-        <option value="$PROJECT_DIR$/b3584.py" />
-        <option value="$PROJECT_DIR$/b12931.py" />
-        <option value="$PROJECT_DIR$/b2008.py" />
         <option value="$PROJECT_DIR$/b1052.py" />
         <option value="$PROJECT_DIR$/b20058.py" />
         <option value="$PROJECT_DIR$/b1700.py" />
         <option value="$PROJECT_DIR$/b7562.py" />
         <option value="$PROJECT_DIR$/b16236.py" />
-        <option value="$PROJECT_DIR$/b1107.py" />
         <option value="$PROJECT_DIR$/b2447.py" />
         <option value="$PROJECT_DIR$/b1246.py" />
         <option value="$PROJECT_DIR$/b10971.py" />
@@ -183,16 +170,37 @@
         <option value="$PROJECT_DIR$/b2178.py" />
         <option value="$PROJECT_DIR$/b7662.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/input.txt" />
         <option value="$PROJECT_DIR$/b14502.py" />
+        <option value="$PROJECT_DIR$/b1992.py" />
+        <option value="$PROJECT_DIR$/b1074.py" />
+        <option value="$PROJECT_DIR$/b1107.py" />
+        <option value="$PROJECT_DIR$/b16928.py" />
+        <option value="$PROJECT_DIR$/b14938.py" />
+        <option value="$PROJECT_DIR$/b13172.py" />
+        <option value="$PROJECT_DIR$/b1753.py" />
+        <option value="$PROJECT_DIR$/b11404.py" />
+        <option value="$PROJECT_DIR$/b1865.py" />
+        <option value="$PROJECT_DIR$/b12865.py" />
+        <option value="$PROJECT_DIR$/b9251.py" />
+        <option value="$PROJECT_DIR$/b9663.py" />
+        <option value="$PROJECT_DIR$/b15650.py" />
+        <option value="$PROJECT_DIR$/b11444.py" />
+        <option value="$PROJECT_DIR$/b17144.py" />
+        <option value="$PROJECT_DIR$/b2407.py" />
+        <option value="$PROJECT_DIR$/b1967.py" />
+        <option value="$PROJECT_DIR$/b1167.py" />
+        <option value="$PROJECT_DIR$/b1043.py" />
+        <option value="$PROJECT_DIR$/b2263.py" />
+        <option value="$PROJECT_DIR$/input.txt" />
+        <option value="$PROJECT_DIR$/b1149.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="88" />
+    <option name="y" value="291" />
+    <option name="width" value="1782" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -202,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +221,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +241,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.b14502">
+  <component name="RunManager" selected="Python.b1149">
+    <configuration name="b1043" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algo_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b1043.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="b1058" type="PythonConfigurationType" factoryName="Python">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,7 +284,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="b14502" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="b1149" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -267,7 +296,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b14502.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b1149.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,7 +305,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="b1927" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="b1167" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,7 +317,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b1927.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b1167.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,7 +326,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="b2178" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="b2263" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,7 +338,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b2178.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b2263.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +368,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="b7662" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="codecs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="algo_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,32 +376,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="C:/Program Files/Python37/Lib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b7662.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algo_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="C:/Program Files/Python37/Lib/codecs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,19 +392,19 @@
     <list>
       <item itemvalue="Python.b1058" />
       <item itemvalue="Python.b3584" />
-      <item itemvalue="Python.b1927" />
-      <item itemvalue="Python.b7662" />
-      <item itemvalue="Python.b2178" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.b14502" />
+      <item itemvalue="Python.b1167" />
+      <item itemvalue="Python.b1043" />
+      <item itemvalue="Python.b2263" />
+      <item itemvalue="Python.codecs" />
+      <item itemvalue="Python.b1149" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.b14502" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.b7662" />
-        <item itemvalue="Python.b2178" />
-        <item itemvalue="Python.b1927" />
+        <item itemvalue="Python.b1149" />
+        <item itemvalue="Python.b2263" />
+        <item itemvalue="Python.codecs" />
+        <item itemvalue="Python.b1043" />
+        <item itemvalue="Python.b1167" />
       </list>
     </recent_temporary>
   </component>
@@ -415,15 +423,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48751357" visible="true" weight="0.16965227" />
-      <window_info id="Structure" order="1" sideWeight="0.5124864" side_tool="true" visible="true" weight="0.16965227" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47227192" visible="true" weight="0.20021075" />
+      <window_info id="Structure" order="1" sideWeight="0.5277281" side_tool="true" weight="0.16965227" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15635179" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.33333334" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21172638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33116177" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -435,6 +442,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47227192" visible="true" weight="0.16965227" />
+      <window_info id="Structure" order="1" sideWeight="0.5277281" side_tool="true" visible="true" weight="0.16965227" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39305103" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31813246" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32951945" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -482,6 +508,105 @@
           <line>45</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1992.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1992.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1074.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1074.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1074.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1074.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1074.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1074.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1107.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1107.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b1107.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b16928.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b16928.py</url>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b15650.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b15650.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b2263.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b2263.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b2263.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b2263.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/b2263.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -494,6 +619,15 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="pre_lst" language="Python" />
+        <watch expression="s" />
+        <watch expression="post_lst.index(a)" language="Python" />
+        <watch expression="root" language="Python" />
+        <watch expression="visited" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -503,22 +637,17 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>arr</expression-string>
+        <expression-string>root</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>arr[j]</expression-string>
+        <expression-string>post_lst.index(a)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>arr[i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>j</expression-string>
+        <expression-string>pre_lst</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -528,134 +657,33 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>i]</expression-string>
+        <expression-string>known</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>x//2</expression-string>
+        <expression-string>x</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(x//2)-1</expression-string>
+        <expression-string>arr</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>x//2-1</expression-string>
+        <expression-string>q</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>a, b</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/b21735.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../ssafy/algorithm/0812/오수경/4837_부분집합의_합/s2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b1759.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b1058.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b10819.py" />
-    <entry file="file://$PROJECT_DIR$/b10819_1.py" />
-    <entry file="file://$PROJECT_DIR$/b6603.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b10819_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b16198.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="11" selection-start-line="29" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b1068.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/다은.py" />
-    <entry file="file://$PROJECT_DIR$/다은2.py" />
-    <entry file="file://$PROJECT_DIR$/corpus.txt" />
-    <entry file="file://$PROJECT_DIR$/b12931.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b2008.py" />
-    <entry file="file://$PROJECT_DIR$/b20056.py" />
-    <entry file="file://$PROJECT_DIR$/b1052.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b20058.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b1700.py" />
-    <entry file="file://$PROJECT_DIR$/b7562.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/b3584.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/b16236.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -769,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b1107.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/b11726.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -824,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
@@ -845,20 +859,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/b2630.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/b14502.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="52" column="10" lean-forward="true" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        <state relative-caret-position="404">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1992.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1074.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding>
-            <marker date="1655792804899" expanded="true" signature="164:524" ph="..." />
+            <marker date="1659793620238" expanded="true" signature="123:128" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1107.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b16928.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b14938.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b13172.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1753.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="75" column="12" lean-forward="true" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b11404.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1865.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b12865.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b9251.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b9663.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b11444.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b17144.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-740">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b2407.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1967.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b15650.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <marker date="1660490992889" expanded="true" signature="101:103" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1167.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1052.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1043.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="3" selection-start-column="7" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="321" column="40" selection-start-line="321" selection-start-column="40" selection-end-line="321" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b2263.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <marker date="1661348532650" expanded="true" signature="228:429" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b1149.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>

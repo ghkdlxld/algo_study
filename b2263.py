@@ -3,26 +3,34 @@ sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
 n = int(input())
-in_order_ans = list(map(int, input().split()))
-post_order_ans = list(map(int, input().split()))
-pre_order_ans = []
+in_lst = list(map(int, input().split()))
+post_lst = list(map(int, input().split()))
+pre_lst = []
+visited = [False]*(n+1)
 
-def pre_order(s, e):
-    if e-s < 1:
-        pre_order_ans.append(post_order_ans[s])
-        return
-    pre_order_ans.append(post_order_ans[e])
-    x = in_order_ans.index(post_order_ans[e])
-    y = post_order_ans.index(in_order_ans[x+1])
-    pre_order(0, x-1)
-    pre_order(y, y-e)
+def check_root(arr):
+    x = -1
+    for a in arr:
+        if not visited[a] and post_lst.index(a) >= x:
+            x = post_lst.index(a)
 
-pre_order_ans.append(post_order_ans[-1])
-x = in_order_ans.index(post_order_ans[-1])
-y = post_order_ans.index(in_order_ans[x+1])
-pre_order(0, x-1)
-pre_order(y, n-1)
-print(pre_order_ans)
+    if x >= 0:
+        return arr.index(post_lst[x])
+    else:
+        return -1
+
+def pre_order(arr):
+    root = check_root(arr)
+    if root >= 0:
+        visited[arr[root]] = True
+        pre_lst.append(arr[root])
+
+        if len(arr) > 1:
+            pre_order(arr[:root])
+            pre_order(arr[root+1:])
+
+pre_order(in_lst)
+print(*pre_lst)
 
 
 

@@ -26,7 +26,6 @@ def bfs(i, j):
                     visited[ni][nj][board[ni][nj] + f] = now + 1
 
 
-
 N, M = map(int, input().split())
 board = [list(map(int, input().strip())) for _ in range(N)]
 visited = [[[INF]*2 for _ in range(M)] for _ in range(N)]

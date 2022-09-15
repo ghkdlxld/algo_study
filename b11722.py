@@ -3,14 +3,11 @@ sys.stdin = open('input.txt')
 
 n = int(input())
 A = list(map(int, input().split()))
-ans = []
-print(A)
+dp = [1]*n
 for i in range(n):
-    t = A[i]
-    for j in range(i, n):
-        if A[j] > t:
-            t = A[j]
-    ans.append(t)
+    for j in range(i):
+        if A[i] < A[j]:
+            # 마지막에 현재원소(A[j])를 붙이는게 더 크냐 안붙이는게 더 크냐 비교
+            dp[i] = max(dp[i], dp[j]+1)
 
-print(ans)
-print(len(set(ans)))
+print(max(dp))

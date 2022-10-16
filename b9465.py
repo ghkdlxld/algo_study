@@ -11,8 +11,11 @@ for tc in range(1, T+1):
     dp[0][0] = sticker[0][0]
     dp[1][0] = sticker[1][0]
 
-    print(sticker)
-    print(dp)
-    for i in range(2):
-        for j in range(1, n):
-            dp[i][j] = max()
+    for j in range(1, n):
+        for i in range(2):
+            if j > 1:
+                dp[i][j] = max(max(dp[0][j-2], dp[1][j-2])+sticker[i][j], dp[abs(i-1)][j-1]+sticker[i][j])
+            else:
+                dp[i][j] = dp[abs(i-1)][j-1]+sticker[i][j]
+
+    print(max(dp[0][-1], dp[1][-1]))

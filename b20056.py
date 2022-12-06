@@ -11,11 +11,6 @@ curl = 0
 for r, c, m, s, d in fireball:
     arr[r-1][c-1].append([m, s, d])
 
-for a in arr:
-    print(a, end='\n')
-
-print('------------------------')
-
 # 이동
 def fire(new_arr):
     for i in range(N):
@@ -30,8 +25,12 @@ def fire(new_arr):
 
 # 합치고 나누기
 def divide():
-    for a in arr:
-        print(a, end='\n')
+    # for a in arr:
+    #     print(a, end='\n')
+    for i in range(N):
+        for j in range(N):
+            if len(arr[i][j]) > 1:
+                # m 합치기, 방향 확인(모두 홀수,짝수?),
 
 
 

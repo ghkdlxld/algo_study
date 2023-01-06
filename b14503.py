@@ -5,7 +5,7 @@ input = sys.stdin.readline
 N, M = map(int, input().split())
 r, c, d = map(int, input().split())
 visited = [list(map(int, input().split())) for _ in range(N)]
-dir = {0: [-1,0], 1:[0,-1], 2:[1,0], 3:[0,1]}
+dir = {0: [-1,0], 1:[0,1], 2:[1,0], 3:[0,-1]}
 cnt = 0
 
 
@@ -19,7 +19,7 @@ def clean(i, j, d):
 
     # d 기준 왼쪽부터 탐색 for
     for k in range(4):
-        new_dir = (d + 1) % 4
+        new_dir = (d + 3) % 4
         new_i = i+dir[new_dir][0]
         new_j = j+dir[new_dir][1]
         # 청소 가능 -> (d+1)%4로 회전, 전진 재귀, break

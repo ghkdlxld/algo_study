@@ -23,7 +23,7 @@ def eat():
     for i in range(N):
         for j in range(N):
             if sea[i][j] < baby[2]:
-                can_eat.append([i, j, abs(i-baby[0])+abs(j-baby[1])])
+                can_eat.append([i, j, abs(i-baby[0])+abs(j-baby[1])]) # i,j, 거리
 
 
 # 먹으러 갈 수 있는지
@@ -41,10 +41,11 @@ while True:
     if len(can_eat) == 0:
         break
 
-    can_eat = sorted(can_eat, key = lambda x: [x[2], x[0], x[1]])
+    # 먹을 수 있는 물고기 중 거리가 가까운 순으로 정렬
+    can_eat = sorted(can_eat, key=lambda x : [x[2], x[0], x[1]])
 
-    for x,y,k in can_eat:
-        can_go(x,y)
+    for a, b, c in can_eat:
+        can_go(a, b)
 
 
     can_eat = []

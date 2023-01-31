@@ -9,11 +9,11 @@ time = 0
 
 print(sea)
 
-# 초기
+
 for x in range(N):
     for y in range(N):
         if sea[x][y] == 9:
-            baby = [x, y]
+            baby = [x, y] # 아기상어 위치
 
 print(baby)
 

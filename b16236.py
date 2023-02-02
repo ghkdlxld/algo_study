@@ -8,15 +8,12 @@ sea = [list(map(int, input().split())) for _ in range(N)]
 baby = [0, 0, 2]
 time = 0
 
-print(sea)
-
 
 for x in range(N):
     for y in range(N):
         if sea[x][y] == 9:
             baby[0], baby[1] = x, y # 아기상어 위치
 
-print(baby)
 
 # 먹을 수 있는 물고기 찾기
 can_eat = []
@@ -32,23 +29,22 @@ di = [0, 0, 1, -1]
 dj = [1, -1, 0, 0]
 def can_go(r, c, visited):
     # 이동 가능 -> 이동
-    q = deque([r,c])
-
-    visited[r][c] = 1
+    q = deque()
+    q.append([r,c])
 
     while q:
-        now_i, now_j = r, c
+        now = q.popleft()
 
         for k in range(4):
-            ni = now_i + di[k]
-            nj = now_j + dj[k]
+            ni = now[0] + di[k]
+            nj = now[1] + dj[k]
 
-            if 0 <= ni < N and 0 <= nj < N and visited[ni][nj] <= baby[2]: # visited 범위 수정 필요
-                pass
+            if 0 <= ni < N and 0 <= nj < N and visited[ni][nj] <= baby[2]: # 가는 시간 추가하기
+                if ni == baby[0] and nj == baby[1]:
+                    return True
+                q.append([ni, nj])
 
-
-    # 이동 불가능
-    pass
+    return False
 
 
 

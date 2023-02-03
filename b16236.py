@@ -49,6 +49,7 @@ def can_go(r, c, visited):
 
 
 
+
 while True:
     eat()
     # 더이상 먹을 수 있는 고기가 없으면

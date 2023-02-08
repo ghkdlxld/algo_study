@@ -20,7 +20,7 @@ can_eat = []
 def eat():
     for i in range(N):
         for j in range(N):
-            if sea[i][j] < baby[2]:
+            if sea[i][j] < baby[2] and sea[i][j] != 0:
                 can_eat.append([i, j, abs(i-baby[0])+abs(j-baby[1])]) # i,j, 거리
 
 
@@ -30,7 +30,7 @@ dj = [1, -1, 0, 0]
 def can_go(r, c, visited):
     # 이동 가능 -> 이동
     q = deque()
-    q.append([r,c])
+    q.append([r, c])
 
     while q:
         now = q.popleft()
@@ -39,10 +39,12 @@ def can_go(r, c, visited):
             ni = now[0] + di[k]
             nj = now[1] + dj[k]
 
-            if 0 <= ni < N and 0 <= nj < N and visited[ni][nj] <= baby[2]: # 가는 시간 추가하기
+            if 0 <= ni < N and 0 <= nj < N and visited[ni][nj] > -1 and sea[ni][nj] <= baby[2]: # 가는 시간 추가하기
                 if ni == baby[0] and nj == baby[1]:
                     return True
+                visited[ni][nj] = -1
                 q.append([ni, nj])
+
 
     return False
 
@@ -64,7 +66,8 @@ while True:
         if can_go(a, b, copy.deepcopy(sea)):
             # 그 위치로 이동, 물고기 먹기, can_eat 초기화
             baby = [a, b, baby[2]+sea[a][b]]
-            can_eat = []
+            sea[a][b] = 0
             break
+    can_eat = []
 
 print(time)

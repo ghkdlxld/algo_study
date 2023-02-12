@@ -1,4 +1,4 @@
-import sys, copy
+import sys
 from collections import deque
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
@@ -6,6 +6,7 @@ input = sys.stdin.readline
 N = int(input())
 sea = [list(map(int, input().split())) for _ in range(N)]
 baby = [0, 0, 2]
+eat_cnt = 0
 time = 0
 
 
@@ -13,7 +14,7 @@ for x in range(N):
     for y in range(N):
         if sea[x][y] == 9:
             baby[0], baby[1] = x, y # 아기상어 위치
-
+            sea[x][y] = 0   # 아기상어 위치 저장후 0 처리
 
 # 먹을 수 있는 물고기 찾기
 can_eat = []
@@ -39,11 +40,12 @@ def can_go(r, c, visited):
             ni = now[0] + di[k]
             nj = now[1] + dj[k]
 
-            if 0 <= ni < N and 0 <= nj < N and visited[ni][nj] > -1 and sea[ni][nj] <= baby[2]: # 가는 시간 추가하기
-                if ni == baby[0] and nj == baby[1]:
-                    return True
-                visited[ni][nj] = -1
+            if 0 <= ni < N and 0 <= nj < N and visited[ni][nj] == 0 and sea[ni][nj] <= baby[2]:
+                visited[ni][nj] = visited[now[0]][now[1]] + 1
                 q.append([ni, nj])
+
+                if ni == baby[0] and nj == baby[1]:
+                    return visited[ni][nj]
 
 
     return False
@@ -58,16 +60,28 @@ while True:
     if len(can_eat) == 0:
         break
 
-    # 먹을 수 있는 물고기 중 거리가 가까운 순
-    can_eat = sorted(can_eat, key=lambda x : [x[2], x[0], x[1]])
-
+    eat_priority = []
     for a, b, c in can_eat:
-        # 먹으러 갈 수 있으면
-        if can_go(a, b, copy.deepcopy(sea)):
-            # 그 위치로 이동, 물고기 먹기, can_eat 초기화
-            baby = [a, b, baby[2]+sea[a][b]]
-            sea[a][b] = 0
-            break
+        visited = [[0]*(N+1) for _ in range(N)]
+        dist = can_go(a, b, visited)
+        if dist:
+            eat_priority.append([a, b, dist])
+
+    if len(eat_priority) == 0:
+        break
+    eat_priority = sorted(eat_priority, key=lambda x: [x[2], x[0], x[1]])
+    target = eat_priority[0]
+    # 그 위치로 이동, 물고기 먹기, can_eat 초기화
+    baby = [target[0], target[1], baby[2]]
+    eat_cnt += 1
+    if eat_cnt == baby[2]:
+        baby[2] += 1
+        eat_cnt = 0
+
+
+    sea[target[0]][target[1]] = 0 # 물고기가 이동한 위치
+    time += target[2]  # 이동하기까지 시간
     can_eat = []
+
 
 print(time)

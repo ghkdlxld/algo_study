@@ -1,3 +1,7 @@
+# 개선할 부분
+# 먹을 수 있는 물고기 과정 변경 후, can_eat 리스트 생성부분 삭제 가능
+
+
 import sys
 from collections import deque
 sys.stdin = open('input.txt')

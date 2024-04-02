@@ -6,18 +6,18 @@ input = sys.stdin.readline
 
 
 def dfs(i):
-    visited = [0]*(N+1)
     stack = [i]
+    node = stack.pop()
+    visited[node] = 1
+    print(node, end=' ')
 
-    while stack:
-        node = stack.pop()
-        visited[node] = 1
-        print(node, end=' ')
+    for x in range(1, N+1):
+        if link[node][x] == 1 and visited[x] != 1:
+            stack.append(x)
+            dfs(x)
 
-        for x in range(1, N+1):
-            if link[node][x] == 1 and visited[x] != 1:
-                stack.append(x)
-                break
+    return
+
 
 
 def bfs(i):
@@ -44,6 +44,7 @@ for _ in range(M):
     link[b][a] = 1
 
 
+visited = [0]*(N+1)
 dfs(V)
 print()
 bfs(V)

@@ -29,4 +29,4 @@ for _ in range(L):
     network[b].append(a)
 
 visited[1] = 1
-print(bfs(1))
+print(bfs(1)) 
